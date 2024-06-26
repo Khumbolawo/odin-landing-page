@@ -24,8 +24,10 @@ body {
   background-color: #1f2937;
   display: flex;
   flex: 1;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  gap: 375px;
+  padding-bottom: 100px;
 }
 
 .header h1 {
@@ -51,4 +53,65 @@ body {
   text-decoration: none;
   color: #e5e7eb;
   font-size: 18px;
+}
+
+/* HERO SECTION */
+
+.hero {
+  display: flex;
+  flex: 1;
+  background-color: #1f2937;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+/* Hero info */
+
+.hero-info,
+.hero-img {
+  width: 29rem;
+  height: 20rem;
+}
+
+.hero-info h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero-info p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  background-color: #3882f6;
+  font-weight: bold;
+  border-radius: 5px;
+  border-color: #3882f6;
+  border-style: none;
+  padding: 10px;
+  width: 8rem;
+}
+
+.hero button a {
+  text-decoration: none;
+  color: white;
+}
+
+/* hero img */
+
+.hero-img {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img p {
+  color: #f9faf8;
 }
