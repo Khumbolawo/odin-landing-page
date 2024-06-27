@@ -115,3 +115,55 @@ body {
 .hero-img p {
   color: #f9faf8;
 }
+
+/* PRODUCTS SECTION */
+
+#products {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  gap: 30px;
+}
+
+/* products heading */
+
+#products h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+/* cards */
+
+.cards {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 150px;
+}
+
+.card div {
+  height: 150px;
+  width: 150px;
+  border: #3882f6;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.card p {
+  text-align: justify;
+}
