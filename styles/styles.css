@@ -247,3 +247,17 @@ body {
   text-align: center;
   text-decoration: none;
 }
+
+/* FOOTER SECTION */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f2937;
+  height: 80px;
+}
+
+footer p {
+  color: #f9faf8;
+}
